@@ -1,0 +1,1 @@
+SELECT auta.marka, auta.model, klienci.nazwisko from auta, klienci, wypozyczenia where wypozyczenia.idklienta=klienci.idklienta and klienci.nazwisko = "Pastewniak"

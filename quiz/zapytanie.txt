@@ -1,0 +1,1 @@
+SELECT * FROM `pytania` WHERE kategoria like "programowanie" or "systemy operacyjne i sieci" and rok=2012
