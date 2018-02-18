@@ -1,1 +1,1 @@
-select imieautora, tytul, cena from ksiazki where tytul like "%tworzenie%" order by cena asc 
+select * from ksiazki where tytul like "%tworzenie%" order by cena asc 
